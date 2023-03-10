@@ -1,0 +1,9 @@
+.site-footer {
+  padding: 5px 15px;
+  background-color: #1e1e1e;
+  color: white;
+}
+.footer-text {
+  text-align: center;
+  font-size: 0.8rem;
+}

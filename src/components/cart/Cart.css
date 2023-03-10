@@ -1,0 +1,44 @@
+.cart-item,
+.cart-list .total-amount,
+.cart-list .actions {
+  padding: 1rem;
+}
+.cart-item + .cart-item {
+  border-top: 1px solid #ccc;
+}
+.cart-item img {
+  height: 4.5rem;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+.cart-item h3 {
+  margin: 0;
+}
+.empty {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.bump {
+  animation: bump 0.4s ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(0.9);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

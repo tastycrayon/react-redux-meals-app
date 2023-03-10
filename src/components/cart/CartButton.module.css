@@ -1,0 +1,12 @@
+.header-cart button {
+  position: relative;
+}
+
+.cart-items-number {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-60%);
+  font-size: 12px;
+  text-align: center;
+}

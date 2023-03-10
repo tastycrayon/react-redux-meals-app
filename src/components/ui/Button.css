@@ -1,0 +1,37 @@
+.btn {
+  padding: 0.5rem 1.2rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+.btn-primary {
+  color: white;
+  background-color: #2d2d2d;
+}
+.btn-secondary {
+  color: white;
+  background-color: #8e8e8e;
+}
+.btn-primary-outline {
+  color: #2d2d2d;
+  border: 1px solid #2d2d2d;
+}
+.btn-icon {
+  height: 3rem;
+  width: 3rem;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  border: 1px solid #2d2d2d;
+}
+.btn-icon svg {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.btn-icon.clicked svg {
+  color:#ff4500;
+  transform: scale(0.5);
+}

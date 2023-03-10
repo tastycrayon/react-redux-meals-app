@@ -1,0 +1,21 @@
+.banner {
+  /* background-image: url("assets/images/Bakery.jpg"}); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-content {
+  margin-top:81px;
+  min-height: 24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-content > h1 {
+  text-align: center;
+}
+.banner-content p {
+  max-width: 30rem;
+  text-align: center;
+}

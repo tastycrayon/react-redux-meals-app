@@ -1,0 +1,17 @@
+header.site-header {
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: rgba(255,255,255,0.9);
+  border-bottom: 1px solid #ccc;
+}
+.primary-header {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.primary-header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
